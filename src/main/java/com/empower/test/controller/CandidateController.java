@@ -29,6 +29,7 @@ public class CandidateController {
 	
 	@GetMapping
 	public List<Candidate> read() {
+		System.out.println("This is typed by me now and it will reflect in jenkins");
 		return cs.read();
 	}
 	
